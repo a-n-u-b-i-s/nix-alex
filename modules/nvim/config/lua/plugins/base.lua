@@ -84,13 +84,13 @@ return {
 	{
 		"nvim-cmp",
 		dependencies = {
-			{
-				"supermaven-inc/supermaven-nvim",
-				opts = {
-					disable_inline_completion = true,
-					disable_keymaps = true,
-				},
-			},
+			-- {
+			-- 	"supermaven-inc/supermaven-nvim",
+			-- 	opts = {
+			-- 		disable_inline_completion = true,
+			-- 		disable_keymaps = true,
+			-- 	},
+			-- },
 		},
 		opts = function(_, opts)
 			table.insert(opts.sources, 1, {

@@ -113,7 +113,7 @@
               end
               popd
 
-              darwin-rebuild switch --flake ~/.config/nix#walle
+              darwin-rebuild switch --flake ~/.config/nix#alexhudym
             '';
         };
 

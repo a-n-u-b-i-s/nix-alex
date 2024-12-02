@@ -92,10 +92,10 @@ wezterm.on("format-tab-title", function(tab, tabs, panes, config, hover, max_wid
 	}
 end)
 
-config.font = wezterm.font({
-	family = "BerkeleyMonoVariable Nerd Font",
-	harfbuzz_features = { "calt=0", "clig=0", "liga=0" },
-})
+-- config.font = wezterm.font({
+-- 	family = "BerkeleyMonoVariable Nerd Font",
+-- 	harfbuzz_features = { "calt=0", "clig=0", "liga=0" },
+-- })
 config.font_size = 14.0
 -- config.font_shaper = "Harfbuzz"
 config.line_height = 1.0

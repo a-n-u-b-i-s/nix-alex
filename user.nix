@@ -57,6 +57,7 @@
     # pkgs.zoom-us
     # pkgs.hueadm
     pkgs.zls
+    pkgs.wezterm
   ];
 
   home.sessionVariables = {
