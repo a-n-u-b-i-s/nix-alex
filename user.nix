@@ -73,6 +73,7 @@
     ./modules/oh-my-posh.nix
     ./modules/nvim
     ./modules/wezterm
+    ./modules/aerospace
   ];
 
   programs.git = {
